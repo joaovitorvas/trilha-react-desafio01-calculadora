@@ -149,7 +149,7 @@ const App = () => {
           <Button label="+" onClick={handleSumNumbers}/>
         </Row>
         <Row>
-          <Button label="+/-" onClick={() => handleAddNumber('-')}/>
+          <Button label="-" onClick={() => handleAddNumber('-')}/>
           <Button label="0" onClick={() => handleAddNumber('0')}/>
           <Button label="." onClick={() => handleAddNumber('.')}/>
           <Button label="=" onClick={handleEquals}/>
